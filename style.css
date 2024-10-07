@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(294, 89%, 47%); /* Light gray background */
+    background-image: url(image\ .jpg);
+    background-size: cover;
+    
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333; /* Dark gray background for header */
+    color: #fff; /* White text for header */
+  }
+  
+  .logo {
+    flex-grow: 1; /* Allows logo to fill remaining space */
+  }
+  
+  .logo h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 2rem;
+  }
+  
+  nav ul a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  nav ul a:hover {
+    color: #ccc; /* Light gray hover effect */
+  }
+  
+  .hero {
+    text-align: center;
+    padding:
